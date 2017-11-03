@@ -169,7 +169,10 @@ class _RidarVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
     var bottomConstraintdestination :NSLayoutConstraint?
     var heightConstraintdestination :NSLayoutConstraint?
 
-    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.isNavigationBarHidden = true
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -177,7 +180,7 @@ class _RidarVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
         destinationLocation.addTarget(self, action: #selector(self.pressedTextFieldDestination), for: .touchDown)
         destinationLocation.addTarget(self, action: #selector(self.changeTextFieldDestination), for: .editingChanged)
         rightBtnBar.addTarget(self, action: #selector(self.MyLocation), for: .touchDown)
-        
+        leftBtnBar.addTarget(self, action: #selector(self.MenuPage), for: .touchDown)
         self.navigationController?.isNavigationBarHidden = true
 
         let leadingConstraintView = NSLayoutConstraint(item: SDView, attribute: .leading, relatedBy: .equal, toItem: self.view, attribute: .leading, multiplier: 1, constant: 70)
@@ -279,6 +282,15 @@ class _RidarVC: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, 
             userAnnotation.coordinate = userLocation!
         }
     }
+    @IBAction func MenuPage(_ sender: Any) {
+        
+        let MenuControl = MenuController()
+        
+        let menuControllerObj = self.storyboard?.instantiateViewController(withIdentifier: "MenuController") as? MenuController
+        self.navigationController?.isNavigationBarHidden = false
+        self.navigationController?.pushViewController(menuControllerObj!, animated: true)
+    }
+    
 
 }
 

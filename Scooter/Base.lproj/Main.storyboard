@@ -1351,7 +1351,7 @@
         <!--Menu Controller-->
         <scene sceneID="0bh-6g-tJa">
             <objects>
-                <tableViewController id="Ixn-AP-OUv" customClass="MenuController" customModule="Scooter" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MenuController" id="Ixn-AP-OUv" customClass="MenuController" customModule="Scooter" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="hoF-CW-FPs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1964,6 +1964,6 @@
         <segue reference="QGT-8K-CBd"/>
         <segue reference="SWX-pt-eby"/>
         <segue reference="SfE-Rc-SrZ"/>
-        <segue reference="3q5-am-uoU"/>
+        <segue reference="AMT-Yl-Wq6"/>
     </inferredMetricsTieBreakers>
 </document>
