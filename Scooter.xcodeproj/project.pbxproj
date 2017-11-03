@@ -1,0 +1,1086 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024AE2CE9E59EFE8ADC48B81 /* Pods_ScooterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AD2C3E71B0B5A279D91089D /* Pods_ScooterUITests.framework */; };
+		198A5E6E2E86E5EE8224A7B0 /* Pods_ScooterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA61EBD180A63C5A7BD6D8A1 /* Pods_ScooterTests.framework */; };
+		1B0662621F818DA900C65957 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0662611F818DA900C65957 /* DBProvider.swift */; };
+		1B0662641F818E2F00C65957 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0662631F818E2F00C65957 /* Constants.swift */; };
+		1B0662661F818EB400C65957 /* ScooterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0662651F818EB400C65957 /* ScooterHandler.swift */; };
+		1B0662681F8192BA00C65957 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662671F8192BA00C65957 /* LOGO.png */; };
+		1B06626A1F819EDC00C65957 /* BG-orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662691F819EDC00C65957 /* BG-orange.png */; };
+		1B06626C1F81A00E00C65957 /* BG image.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B06626B1F81A00E00C65957 /* BG image.png */; };
+		1B06626E1F81A0A400C65957 /* signin-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B06626D1F81A0A400C65957 /* signin-bg.png */; };
+		1B0662741F81B32800C65957 /* Rider VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B0662731F81B32800C65957 /* Rider VC.swift */; };
+		1B0662761F84422600C65957 /* bottom copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662751F84422600C65957 /* bottom copy 2.png */; };
+		1B0662781F84451E00C65957 /* Rectangle 4 copy 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662771F84451E00C65957 /* Rectangle 4 copy 9.png */; };
+		1B06627A1F84471E00C65957 /* back copy 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662791F84471E00C65957 /* back copy 2.png */; };
+		1B06627C1F86613D00C65957 /* SignUP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B06627B1F86613D00C65957 /* SignUP.swift */; };
+		1B06627E1F89707D00C65957 /* bottom copy 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B06627D1F89707D00C65957 /* bottom copy 9.png */; };
+		1B0662801F8973D200C65957 /* bottom copy 9-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B06627F1F8973D200C65957 /* bottom copy 9-2.png */; };
+		1B0662821F89742B00C65957 /* bg-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B0662811F89742B00C65957 /* bg-01.png */; };
+		1BA720B51F6D4BD5003A14D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720B41F6D4BD5003A14D4 /* AppDelegate.swift */; };
+		1BA720B71F6D4BD5003A14D4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720B61F6D4BD5003A14D4 /* RootViewController.swift */; };
+		1BA720B91F6D4BD5003A14D4 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720B81F6D4BD5003A14D4 /* DataViewController.swift */; };
+		1BA720BB1F6D4BD5003A14D4 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720BA1F6D4BD5003A14D4 /* ModelController.swift */; };
+		1BA720C01F6D4BD5003A14D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA720BF1F6D4BD5003A14D4 /* Assets.xcassets */; };
+		1BA720C31F6D4BD5003A14D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA720C11F6D4BD5003A14D4 /* LaunchScreen.storyboard */; };
+		1BA720CE1F6D4BD5003A14D4 /* ScooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720CD1F6D4BD5003A14D4 /* ScooterTests.swift */; };
+		1BA720D91F6D4BD5003A14D4 /* ScooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720D81F6D4BD5003A14D4 /* ScooterUITests.swift */; };
+		1BA720EB1F7402AB003A14D4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BA720EA1F7402AB003A14D4 /* GoogleService-Info.plist */; };
+		1BA720ED1F7544FC003A14D4 /* splsh_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 1BA720EC1F7544FC003A14D4 /* splsh_screen.png */; };
+		1BA720F61F7E806D003A14D4 /* Signin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720F51F7E806D003A14D4 /* Signin.swift */; };
+		1BA720FD1F7E8656003A14D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA720FB1F7E8656003A14D4 /* Main.storyboard */; };
+		1BA720FF1F7FB3DE003A14D4 /* AuthProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA720FE1F7FB3DE003A14D4 /* AuthProvider.swift */; };
+		1DF44D6A954C6B508BF12F11 /* Pods_Scooter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AA0593DA9AB65A981EB9C0 /* Pods_Scooter.framework */; };
+		5EAB353C1FAC46E700C5F12F /* _RidarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAB353B1FAC46E700C5F12F /* _RidarVC.swift */; };
+		E0051CC51F916A59001A9FFF /* global.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0051CC41F916A59001A9FFF /* global.swift */; };
+		E00EA3E01F93D2F00080C5BA /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00EA3DF1F93D2F00080C5BA /* LocationSearchTable.swift */; };
+		E0194C6C1F8D105100C4537D /* blue background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C6A1F8D105100C4537D /* blue background.png */; };
+		E0194C6D1F8D105100C4537D /* confirm booking.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C6B1F8D105100C4537D /* confirm booking.png */; };
+		E0194C6F1F8D11C500C4537D /* Fare Estimate White Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C6E1F8D11C500C4537D /* Fare Estimate White Background.png */; };
+		E0194C741F8D129900C4537D /* cash.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C701F8D129900C4537D /* cash.png */; };
+		E0194C751F8D129900C4537D /* dollar in cash.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C711F8D129900C4537D /* dollar in cash.png */; };
+		E0194C761F8D129900C4537D /* dollar in fare estimate.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C721F8D129900C4537D /* dollar in fare estimate.png */; };
+		E0194C771F8D129900C4537D /* fare estimate.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C731F8D129900C4537D /* fare estimate.png */; };
+		E0194C791F8D159300C4537D /* between cash and fare estimate.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C781F8D159300C4537D /* between cash and fare estimate.png */; };
+		E0194C7B1F8D199E00C4537D /* beige background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C7A1F8D199E00C4537D /* beige background.png */; };
+		E0194C7D1F8D1E4D00C4537D /* booking confirmation.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C7C1F8D1E4D00C4537D /* booking confirmation.png */; };
+		E0194C801F8D1FC000C4537D /* Confirm Booking Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C7E1F8D1FC000C4537D /* Confirm Booking Background.png */; };
+		E0194C811F8D1FC000C4537D /* Full Scooter.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C7F1F8D1FC000C4537D /* Full Scooter.png */; };
+		E0194C831F8D226B00C4537D /* fare estimate page.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C821F8D226B00C4537D /* fare estimate page.png */; };
+		E0194C871F8D285000C4537D /* Pickup Arriving.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C861F8D285000C4537D /* Pickup Arriving.png */; };
+		E0194C8B1F8D2D9600C4537D /* blank star.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C881F8D2D9600C4537D /* blank star.png */; };
+		E0194C8C1F8D2D9600C4537D /* Full star.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C891F8D2D9600C4537D /* Full star.png */; };
+		E0194C8D1F8D2D9600C4537D /* white rectangle pickup arriving.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C8A1F8D2D9600C4537D /* white rectangle pickup arriving.png */; };
+		E0194C911F8D304800C4537D /* call background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C8E1F8D304800C4537D /* call background.png */; };
+		E0194C921F8D304800C4537D /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C8F1F8D304800C4537D /* call.png */; };
+		E0194C931F8D304800C4537D /* pp.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C901F8D304800C4537D /* pp.png */; };
+		E0194C961F8D363A00C4537D /* Back History.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C941F8D363A00C4537D /* Back History.png */; };
+		E0194C971F8D363A00C4537D /* Front History.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C951F8D363A00C4537D /* Front History.png */; };
+		E0194C9A1F8D396700C4537D /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C981F8D396700C4537D /* coins.png */; };
+		E0194C9B1F8D396700C4537D /* pin location.png in Resources */ = {isa = PBXBuildFile; fileRef = E0194C991F8D396700C4537D /* pin location.png */; };
+		E02D37931F910042000CA66D /* DriverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D37921F910042000CA66D /* DriverVC.swift */; };
+		E02D37981F9103B0000CA66D /* Driver Home.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D37941F9103B0000CA66D /* Driver Home.png */; };
+		E02D37991F9103B0000CA66D /* Earnings.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D37951F9103B0000CA66D /* Earnings.png */; };
+		E02D379A1F9103B0000CA66D /* On Trip 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D37961F9103B0000CA66D /* On Trip 2.png */; };
+		E02D379B1F9103B0000CA66D /* On Trip1.png in Resources */ = {isa = PBXBuildFile; fileRef = E02D37971F9103B0000CA66D /* On Trip1.png */; };
+		E02D379F1F912B09000CA66D /* driverScooterHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02D379E1F912B09000CA66D /* driverScooterHandler.swift */; };
+		E059B84F1F8EC72A00B3568D /* RideData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E059B84E1F8EC72A00B3568D /* RideData.swift */; };
+		E05FEE431F9948AE00431E22 /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05FEE421F9948AE00431E22 /* StarRating.swift */; };
+		E05FEE491F996A4100431E22 /* empty-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E05FEE461F996A4100431E22 /* empty-star.png */; };
+		E05FEE4A1F996A4100431E22 /* full-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E05FEE471F996A4100431E22 /* full-star.png */; };
+		E05FEE4B1F996A4100431E22 /* half-star.png in Resources */ = {isa = PBXBuildFile; fileRef = E05FEE481F996A4100431E22 /* half-star.png */; };
+		E09493271FA1323000177C0A /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09493261FA1323000177C0A /* PopUpViewController.swift */; };
+		E0AC6BF51FA7410C0041B1A3 /* DriverRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AC6BF41FA7410C0041B1A3 /* DriverRating.swift */; };
+		E0B76FCD1FA7678A004DBA93 /* DriverHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B76FCC1FA7678A004DBA93 /* DriverHistory.swift */; };
+		E0B76FD11FA79EB8004DBA93 /* DriverAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B76FD01FA79EB8004DBA93 /* DriverAccount.swift */; };
+		E0B872201FA7B851005ED4D2 /* RiderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B8721F1FA7B851005ED4D2 /* RiderHistory.swift */; };
+		E0CDF5B21F8C3AC3004A4FB9 /* Back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5A81F8C3AC3004A4FB9 /* Back_icon.png */; };
+		E0CDF5B31F8C3AC3004A4FB9 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5A91F8C3AC3004A4FB9 /* Background.png */; };
+		E0CDF5B41F8C3AC3004A4FB9 /* BG-Ongoing REQ.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AA1F8C3AC3004A4FB9 /* BG-Ongoing REQ.png */; };
+		E0CDF5B51F8C3AC3004A4FB9 /* Ellipse 8 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AB1F8C3AC3004A4FB9 /* Ellipse 8 copy.png */; };
+		E0CDF5B61F8C3AC3004A4FB9 /* Forma 1 copy 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AC1F8C3AC3004A4FB9 /* Forma 1 copy 5.png */; };
+		E0CDF5B71F8C3AC3004A4FB9 /* Hamburger Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AD1F8C3AC3004A4FB9 /* Hamburger Menu.png */; };
+		E0CDF5B81F8C3AC3004A4FB9 /* history_background.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AE1F8C3AC3004A4FB9 /* history_background.png */; };
+		E0CDF5B91F8C3AC3004A4FB9 /* history_section.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5AF1F8C3AC3004A4FB9 /* history_section.png */; };
+		E0CDF5BA1F8C3AC3004A4FB9 /* Request Ongoing.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5B01F8C3AC3004A4FB9 /* Request Ongoing.png */; };
+		E0CDF5BB1F8C3AC3004A4FB9 /* Request_Ride_Header.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5B11F8C3AC3004A4FB9 /* Request_Ride_Header.png */; };
+		E0CDF5BF1F8C3F04004A4FB9 /* back icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5BC1F8C3F04004A4FB9 /* back icon.svg */; };
+		E0CDF5C01F8C3F04004A4FB9 /* Menu icon.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5BD1F8C3F04004A4FB9 /* Menu icon.svg */; };
+		E0CDF5C11F8C3F04004A4FB9 /* Pin.svg in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5BE1F8C3F04004A4FB9 /* Pin.svg */; };
+		E0CDF5C51F8C41D0004A4FB9 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5C21F8C41D0004A4FB9 /* back.png */; };
+		E0CDF5C61F8C41D0004A4FB9 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5C31F8C41D0004A4FB9 /* menu.png */; };
+		E0CDF5C71F8C41D0004A4FB9 /* pin.png in Resources */ = {isa = PBXBuildFile; fileRef = E0CDF5C41F8C41D0004A4FB9 /* pin.png */; };
+		E0FECD941FA454C100CB1AC4 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FECD931FA454C100CB1AC4 /* MenuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BA720CA1F6D4BD5003A14D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA720A91F6D4BD5003A14D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA720B01F6D4BD5003A14D4;
+			remoteInfo = Scooter;
+		};
+		1BA720D51F6D4BD5003A14D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1BA720A91F6D4BD5003A14D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BA720B01F6D4BD5003A14D4;
+			remoteInfo = Scooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B0662611F818DA900C65957 /* DBProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		1B0662631F818E2F00C65957 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B0662651F818EB400C65957 /* ScooterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScooterHandler.swift; sourceTree = "<group>"; };
+		1B0662671F8192BA00C65957 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOGO.png; sourceTree = "<group>"; };
+		1B0662691F819EDC00C65957 /* BG-orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-orange.png"; sourceTree = "<group>"; };
+		1B06626B1F81A00E00C65957 /* BG image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG image.png"; sourceTree = "<group>"; };
+		1B06626D1F81A0A400C65957 /* signin-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signin-bg.png"; sourceTree = "<group>"; };
+		1B0662731F81B32800C65957 /* Rider VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rider VC.swift"; sourceTree = "<group>"; };
+		1B0662751F84422600C65957 /* bottom copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom copy 2.png"; sourceTree = "<group>"; };
+		1B0662771F84451E00C65957 /* Rectangle 4 copy 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rectangle 4 copy 9.png"; sourceTree = "<group>"; };
+		1B0662791F84471E00C65957 /* back copy 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back copy 2.png"; sourceTree = "<group>"; };
+		1B06627B1F86613D00C65957 /* SignUP.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUP.swift; sourceTree = "<group>"; };
+		1B06627D1F89707D00C65957 /* bottom copy 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom copy 9.png"; sourceTree = "<group>"; };
+		1B06627F1F8973D200C65957 /* bottom copy 9-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom copy 9-2.png"; sourceTree = "<group>"; };
+		1B0662811F89742B00C65957 /* bg-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-01.png"; sourceTree = "<group>"; };
+		1BA720B11F6D4BD5003A14D4 /* Scooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA720B41F6D4BD5003A14D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1BA720B61F6D4BD5003A14D4 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1BA720B81F6D4BD5003A14D4 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		1BA720BA1F6D4BD5003A14D4 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		1BA720BF1F6D4BD5003A14D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1BA720C21F6D4BD5003A14D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1BA720C41F6D4BD5003A14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA720C91F6D4BD5003A14D4 /* ScooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA720CD1F6D4BD5003A14D4 /* ScooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterTests.swift; sourceTree = "<group>"; };
+		1BA720CF1F6D4BD5003A14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA720D41F6D4BD5003A14D4 /* ScooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA720D81F6D4BD5003A14D4 /* ScooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScooterUITests.swift; sourceTree = "<group>"; };
+		1BA720DA1F6D4BD5003A14D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BA720EA1F7402AB003A14D4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1BA720EC1F7544FC003A14D4 /* splsh_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splsh_screen.png; sourceTree = "<group>"; };
+		1BA720F51F7E806D003A14D4 /* Signin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Signin.swift; sourceTree = "<group>"; };
+		1BA720FC1F7E8656003A14D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Scooter/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1BA720FE1F7FB3DE003A14D4 /* AuthProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthProvider.swift; sourceTree = "<group>"; };
+		476B60D7002C722D6F6DFD9A /* Pods-Scooter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scooter.release.xcconfig"; path = "Pods/Target Support Files/Pods-Scooter/Pods-Scooter.release.xcconfig"; sourceTree = "<group>"; };
+		50AA0593DA9AB65A981EB9C0 /* Pods_Scooter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scooter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAB353B1FAC46E700C5F12F /* _RidarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _RidarVC.swift; sourceTree = "<group>"; };
+		9AD2C3E71B0B5A279D91089D /* Pods_ScooterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScooterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1BE012C6EE3E9359D8D95E9 /* Pods-ScooterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScooterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScooterTests/Pods-ScooterTests.release.xcconfig"; sourceTree = "<group>"; };
+		BA61EBD180A63C5A7BD6D8A1 /* Pods_ScooterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScooterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF1E09A60ACA7714327378F /* Pods-ScooterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScooterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScooterUITests/Pods-ScooterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0B3C51E826768AB32C09F96 /* Pods-Scooter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scooter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scooter/Pods-Scooter.debug.xcconfig"; sourceTree = "<group>"; };
+		D778AC27C7A16728A18670BA /* Pods-ScooterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScooterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScooterUITests/Pods-ScooterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0051CC41F916A59001A9FFF /* global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = global.swift; sourceTree = "<group>"; };
+		E00EA3DF1F93D2F00080C5BA /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		E0194C6A1F8D105100C4537D /* blue background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue background.png"; sourceTree = "<group>"; };
+		E0194C6B1F8D105100C4537D /* confirm booking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confirm booking.png"; sourceTree = "<group>"; };
+		E0194C6E1F8D11C500C4537D /* Fare Estimate White Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fare Estimate White Background.png"; sourceTree = "<group>"; };
+		E0194C701F8D129900C4537D /* cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cash.png; sourceTree = "<group>"; };
+		E0194C711F8D129900C4537D /* dollar in cash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollar in cash.png"; sourceTree = "<group>"; };
+		E0194C721F8D129900C4537D /* dollar in fare estimate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollar in fare estimate.png"; sourceTree = "<group>"; };
+		E0194C731F8D129900C4537D /* fare estimate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fare estimate.png"; sourceTree = "<group>"; };
+		E0194C781F8D159300C4537D /* between cash and fare estimate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "between cash and fare estimate.png"; sourceTree = "<group>"; };
+		E0194C7A1F8D199E00C4537D /* beige background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beige background.png"; sourceTree = "<group>"; };
+		E0194C7C1F8D1E4D00C4537D /* booking confirmation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "booking confirmation.png"; sourceTree = "<group>"; };
+		E0194C7E1F8D1FC000C4537D /* Confirm Booking Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Confirm Booking Background.png"; sourceTree = "<group>"; };
+		E0194C7F1F8D1FC000C4537D /* Full Scooter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Scooter.png"; sourceTree = "<group>"; };
+		E0194C821F8D226B00C4537D /* fare estimate page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fare estimate page.png"; sourceTree = "<group>"; };
+		E0194C861F8D285000C4537D /* Pickup Arriving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pickup Arriving.png"; sourceTree = "<group>"; };
+		E0194C881F8D2D9600C4537D /* blank star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank star.png"; sourceTree = "<group>"; };
+		E0194C891F8D2D9600C4537D /* Full star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full star.png"; sourceTree = "<group>"; };
+		E0194C8A1F8D2D9600C4537D /* white rectangle pickup arriving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white rectangle pickup arriving.png"; sourceTree = "<group>"; };
+		E0194C8E1F8D304800C4537D /* call background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call background.png"; sourceTree = "<group>"; };
+		E0194C8F1F8D304800C4537D /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		E0194C901F8D304800C4537D /* pp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pp.png; sourceTree = "<group>"; };
+		E0194C941F8D363A00C4537D /* Back History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back History.png"; sourceTree = "<group>"; };
+		E0194C951F8D363A00C4537D /* Front History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Front History.png"; sourceTree = "<group>"; };
+		E0194C981F8D396700C4537D /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
+		E0194C991F8D396700C4537D /* pin location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pin location.png"; sourceTree = "<group>"; };
+		E02D37921F910042000CA66D /* DriverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverVC.swift; sourceTree = "<group>"; };
+		E02D37941F9103B0000CA66D /* Driver Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Driver Home.png"; sourceTree = "<group>"; };
+		E02D37951F9103B0000CA66D /* Earnings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earnings.png; sourceTree = "<group>"; };
+		E02D37961F9103B0000CA66D /* On Trip 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Trip 2.png"; sourceTree = "<group>"; };
+		E02D37971F9103B0000CA66D /* On Trip1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "On Trip1.png"; sourceTree = "<group>"; };
+		E02D379E1F912B09000CA66D /* driverScooterHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = driverScooterHandler.swift; sourceTree = "<group>"; };
+		E059B84E1F8EC72A00B3568D /* RideData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RideData.swift; sourceTree = "<group>"; };
+		E05B6CFC1FA5286F00E552E5 /* scooters.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = scooters.entitlements; sourceTree = "<group>"; };
+		E05FEE421F9948AE00431E22 /* StarRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
+		E05FEE461F996A4100431E22 /* empty-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "empty-star.png"; sourceTree = "<group>"; };
+		E05FEE471F996A4100431E22 /* full-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "full-star.png"; sourceTree = "<group>"; };
+		E05FEE481F996A4100431E22 /* half-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "half-star.png"; sourceTree = "<group>"; };
+		E09493261FA1323000177C0A /* PopUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+		E0AC6BF41FA7410C0041B1A3 /* DriverRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverRating.swift; sourceTree = "<group>"; };
+		E0B76FCC1FA7678A004DBA93 /* DriverHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverHistory.swift; sourceTree = "<group>"; };
+		E0B76FD01FA79EB8004DBA93 /* DriverAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverAccount.swift; sourceTree = "<group>"; };
+		E0B8721F1FA7B851005ED4D2 /* RiderHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RiderHistory.swift; sourceTree = "<group>"; };
+		E0CDF5A81F8C3AC3004A4FB9 /* Back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Back_icon.png; sourceTree = "<group>"; };
+		E0CDF5A91F8C3AC3004A4FB9 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		E0CDF5AA1F8C3AC3004A4FB9 /* BG-Ongoing REQ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BG-Ongoing REQ.png"; sourceTree = "<group>"; };
+		E0CDF5AB1F8C3AC3004A4FB9 /* Ellipse 8 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ellipse 8 copy.png"; sourceTree = "<group>"; };
+		E0CDF5AC1F8C3AC3004A4FB9 /* Forma 1 copy 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Forma 1 copy 5.png"; sourceTree = "<group>"; };
+		E0CDF5AD1F8C3AC3004A4FB9 /* Hamburger Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hamburger Menu.png"; sourceTree = "<group>"; };
+		E0CDF5AE1F8C3AC3004A4FB9 /* history_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_background.png; sourceTree = "<group>"; };
+		E0CDF5AF1F8C3AC3004A4FB9 /* history_section.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history_section.png; sourceTree = "<group>"; };
+		E0CDF5B01F8C3AC3004A4FB9 /* Request Ongoing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Request Ongoing.png"; sourceTree = "<group>"; };
+		E0CDF5B11F8C3AC3004A4FB9 /* Request_Ride_Header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Request_Ride_Header.png; sourceTree = "<group>"; };
+		E0CDF5BC1F8C3F04004A4FB9 /* back icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "back icon.svg"; sourceTree = "<group>"; };
+		E0CDF5BD1F8C3F04004A4FB9 /* Menu icon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Menu icon.svg"; sourceTree = "<group>"; };
+		E0CDF5BE1F8C3F04004A4FB9 /* Pin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pin.svg; sourceTree = "<group>"; };
+		E0CDF5C21F8C41D0004A4FB9 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E0CDF5C31F8C41D0004A4FB9 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		E0CDF5C41F8C41D0004A4FB9 /* pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin.png; sourceTree = "<group>"; };
+		E0FECD931FA454C100CB1AC4 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		FCE3EC7A24F44D48EFE064C6 /* Pods-ScooterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScooterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScooterTests/Pods-ScooterTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BA720AE1F6D4BD5003A14D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DF44D6A954C6B508BF12F11 /* Pods_Scooter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720C61F6D4BD5003A14D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198A5E6E2E86E5EE8224A7B0 /* Pods_ScooterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720D11F6D4BD5003A14D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024AE2CE9E59EFE8ADC48B81 /* Pods_ScooterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BA720A81F6D4BD5003A14D4 = {
+			isa = PBXGroup;
+			children = (
+				1BA720B31F6D4BD5003A14D4 /* Scooter */,
+				1BA720CC1F6D4BD5003A14D4 /* ScooterTests */,
+				1BA720D71F6D4BD5003A14D4 /* ScooterUITests */,
+				1BA720B21F6D4BD5003A14D4 /* Products */,
+				40BC5B3F954EF64745838F87 /* Pods */,
+				75AEA98423212CE062FF2C23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1BA720B21F6D4BD5003A14D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1BA720B11F6D4BD5003A14D4 /* Scooter.app */,
+				1BA720C91F6D4BD5003A14D4 /* ScooterTests.xctest */,
+				1BA720D41F6D4BD5003A14D4 /* ScooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BA720B31F6D4BD5003A14D4 /* Scooter */ = {
+			isa = PBXGroup;
+			children = (
+				1BA720FB1F7E8656003A14D4 /* Main.storyboard */,
+				1BA720F41F7E7FC0003A14D4 /* Controllers */,
+				1BA720B41F6D4BD5003A14D4 /* AppDelegate.swift */,
+				1BA720B61F6D4BD5003A14D4 /* RootViewController.swift */,
+				1BA720B81F6D4BD5003A14D4 /* DataViewController.swift */,
+				1BA720BA1F6D4BD5003A14D4 /* ModelController.swift */,
+				1BA720EA1F7402AB003A14D4 /* GoogleService-Info.plist */,
+				1BA720BF1F6D4BD5003A14D4 /* Assets.xcassets */,
+				1BA720C11F6D4BD5003A14D4 /* LaunchScreen.storyboard */,
+				1B06627F1F8973D200C65957 /* bottom copy 9-2.png */,
+				1B06627D1F89707D00C65957 /* bottom copy 9.png */,
+				1B0662771F84451E00C65957 /* Rectangle 4 copy 9.png */,
+				1B0662791F84471E00C65957 /* back copy 2.png */,
+				1B0662751F84422600C65957 /* bottom copy 2.png */,
+				1B0662671F8192BA00C65957 /* LOGO.png */,
+				1B0662811F89742B00C65957 /* bg-01.png */,
+				1B0662691F819EDC00C65957 /* BG-orange.png */,
+				1B06626B1F81A00E00C65957 /* BG image.png */,
+				1B06626D1F81A0A400C65957 /* signin-bg.png */,
+				1BA720C41F6D4BD5003A14D4 /* Info.plist */,
+				1BA720EC1F7544FC003A14D4 /* splsh_screen.png */,
+			);
+			path = Scooter;
+			sourceTree = "<group>";
+		};
+		1BA720CC1F6D4BD5003A14D4 /* ScooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA720CD1F6D4BD5003A14D4 /* ScooterTests.swift */,
+				1BA720CF1F6D4BD5003A14D4 /* Info.plist */,
+			);
+			path = ScooterTests;
+			sourceTree = "<group>";
+		};
+		1BA720D71F6D4BD5003A14D4 /* ScooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1BA720D81F6D4BD5003A14D4 /* ScooterUITests.swift */,
+				1BA720DA1F6D4BD5003A14D4 /* Info.plist */,
+			);
+			path = ScooterUITests;
+			sourceTree = "<group>";
+		};
+		1BA720F41F7E7FC0003A14D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E05FEE461F996A4100431E22 /* empty-star.png */,
+				E05FEE471F996A4100431E22 /* full-star.png */,
+				E05FEE481F996A4100431E22 /* half-star.png */,
+				E02D37941F9103B0000CA66D /* Driver Home.png */,
+				E02D37951F9103B0000CA66D /* Earnings.png */,
+				E02D37961F9103B0000CA66D /* On Trip 2.png */,
+				E02D37971F9103B0000CA66D /* On Trip1.png */,
+				E0194C981F8D396700C4537D /* coins.png */,
+				E0194C991F8D396700C4537D /* pin location.png */,
+				E0194C941F8D363A00C4537D /* Back History.png */,
+				E0194C951F8D363A00C4537D /* Front History.png */,
+				E0194C8E1F8D304800C4537D /* call background.png */,
+				E0194C8F1F8D304800C4537D /* call.png */,
+				E0194C901F8D304800C4537D /* pp.png */,
+				E0194C881F8D2D9600C4537D /* blank star.png */,
+				E0194C891F8D2D9600C4537D /* Full star.png */,
+				E0194C8A1F8D2D9600C4537D /* white rectangle pickup arriving.png */,
+				E0194C861F8D285000C4537D /* Pickup Arriving.png */,
+				E0194C821F8D226B00C4537D /* fare estimate page.png */,
+				E0194C7E1F8D1FC000C4537D /* Confirm Booking Background.png */,
+				E0194C7F1F8D1FC000C4537D /* Full Scooter.png */,
+				E0194C7C1F8D1E4D00C4537D /* booking confirmation.png */,
+				E0194C7A1F8D199E00C4537D /* beige background.png */,
+				E0194C781F8D159300C4537D /* between cash and fare estimate.png */,
+				E0194C701F8D129900C4537D /* cash.png */,
+				E0194C711F8D129900C4537D /* dollar in cash.png */,
+				E0194C721F8D129900C4537D /* dollar in fare estimate.png */,
+				E0194C731F8D129900C4537D /* fare estimate.png */,
+				E0194C6E1F8D11C500C4537D /* Fare Estimate White Background.png */,
+				E0194C6A1F8D105100C4537D /* blue background.png */,
+				E0194C6B1F8D105100C4537D /* confirm booking.png */,
+				E0CDF5C21F8C41D0004A4FB9 /* back.png */,
+				E0CDF5C31F8C41D0004A4FB9 /* menu.png */,
+				E0CDF5C41F8C41D0004A4FB9 /* pin.png */,
+				E0CDF5BC1F8C3F04004A4FB9 /* back icon.svg */,
+				E0CDF5BD1F8C3F04004A4FB9 /* Menu icon.svg */,
+				E0CDF5BE1F8C3F04004A4FB9 /* Pin.svg */,
+				E0CDF5A81F8C3AC3004A4FB9 /* Back_icon.png */,
+				E0CDF5A91F8C3AC3004A4FB9 /* Background.png */,
+				E0CDF5AA1F8C3AC3004A4FB9 /* BG-Ongoing REQ.png */,
+				E0CDF5AB1F8C3AC3004A4FB9 /* Ellipse 8 copy.png */,
+				E0CDF5AC1F8C3AC3004A4FB9 /* Forma 1 copy 5.png */,
+				E0CDF5AD1F8C3AC3004A4FB9 /* Hamburger Menu.png */,
+				E0CDF5AE1F8C3AC3004A4FB9 /* history_background.png */,
+				E0CDF5AF1F8C3AC3004A4FB9 /* history_section.png */,
+				E0CDF5B01F8C3AC3004A4FB9 /* Request Ongoing.png */,
+				E0CDF5B11F8C3AC3004A4FB9 /* Request_Ride_Header.png */,
+				1BA720F51F7E806D003A14D4 /* Signin.swift */,
+				1BA720FE1F7FB3DE003A14D4 /* AuthProvider.swift */,
+				1B0662631F818E2F00C65957 /* Constants.swift */,
+				1B0662611F818DA900C65957 /* DBProvider.swift */,
+				1B0662651F818EB400C65957 /* ScooterHandler.swift */,
+				1B0662731F81B32800C65957 /* Rider VC.swift */,
+				E0AC6BF41FA7410C0041B1A3 /* DriverRating.swift */,
+				1B06627B1F86613D00C65957 /* SignUP.swift */,
+				E059B84E1F8EC72A00B3568D /* RideData.swift */,
+				E02D37921F910042000CA66D /* DriverVC.swift */,
+				E0B76FCC1FA7678A004DBA93 /* DriverHistory.swift */,
+				E02D379E1F912B09000CA66D /* driverScooterHandler.swift */,
+				E0051CC41F916A59001A9FFF /* global.swift */,
+				E00EA3DF1F93D2F00080C5BA /* LocationSearchTable.swift */,
+				E05FEE421F9948AE00431E22 /* StarRating.swift */,
+				E09493261FA1323000177C0A /* PopUpViewController.swift */,
+				E0FECD931FA454C100CB1AC4 /* MenuController.swift */,
+				E05B6CFC1FA5286F00E552E5 /* scooters.entitlements */,
+				E0B76FD01FA79EB8004DBA93 /* DriverAccount.swift */,
+				E0B8721F1FA7B851005ED4D2 /* RiderHistory.swift */,
+				5EAB353B1FAC46E700C5F12F /* _RidarVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		40BC5B3F954EF64745838F87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0B3C51E826768AB32C09F96 /* Pods-Scooter.debug.xcconfig */,
+				476B60D7002C722D6F6DFD9A /* Pods-Scooter.release.xcconfig */,
+				FCE3EC7A24F44D48EFE064C6 /* Pods-ScooterTests.debug.xcconfig */,
+				A1BE012C6EE3E9359D8D95E9 /* Pods-ScooterTests.release.xcconfig */,
+				BFF1E09A60ACA7714327378F /* Pods-ScooterUITests.debug.xcconfig */,
+				D778AC27C7A16728A18670BA /* Pods-ScooterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75AEA98423212CE062FF2C23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50AA0593DA9AB65A981EB9C0 /* Pods_Scooter.framework */,
+				BA61EBD180A63C5A7BD6D8A1 /* Pods_ScooterTests.framework */,
+				9AD2C3E71B0B5A279D91089D /* Pods_ScooterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1BA720B01F6D4BD5003A14D4 /* Scooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA720DD1F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "Scooter" */;
+			buildPhases = (
+				678EF15D816316E63120096D /* [CP] Check Pods Manifest.lock */,
+				1BA720AD1F6D4BD5003A14D4 /* Sources */,
+				1BA720AE1F6D4BD5003A14D4 /* Frameworks */,
+				1BA720AF1F6D4BD5003A14D4 /* Resources */,
+				DEC0BF6ACBBD184C58B2F634 /* [CP] Embed Pods Frameworks */,
+				3682A3893696BA3042439B57 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scooter;
+			productName = Scooter;
+			productReference = 1BA720B11F6D4BD5003A14D4 /* Scooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BA720C81F6D4BD5003A14D4 /* ScooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA720E01F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "ScooterTests" */;
+			buildPhases = (
+				5B2F4BF432C07533B66A1736 /* [CP] Check Pods Manifest.lock */,
+				1BA720C51F6D4BD5003A14D4 /* Sources */,
+				1BA720C61F6D4BD5003A14D4 /* Frameworks */,
+				1BA720C71F6D4BD5003A14D4 /* Resources */,
+				53B96A48DB2027572DF2E010 /* [CP] Embed Pods Frameworks */,
+				658E63AFACC5DAEB81973D8B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA720CB1F6D4BD5003A14D4 /* PBXTargetDependency */,
+			);
+			name = ScooterTests;
+			productName = ScooterTests;
+			productReference = 1BA720C91F6D4BD5003A14D4 /* ScooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1BA720D31F6D4BD5003A14D4 /* ScooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BA720E31F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "ScooterUITests" */;
+			buildPhases = (
+				7E104CF7067866FB7A797DEF /* [CP] Check Pods Manifest.lock */,
+				1BA720D01F6D4BD5003A14D4 /* Sources */,
+				1BA720D11F6D4BD5003A14D4 /* Frameworks */,
+				1BA720D21F6D4BD5003A14D4 /* Resources */,
+				1541F3357086A9F81A51BB47 /* [CP] Embed Pods Frameworks */,
+				9025C2434B1E12195B4A9AE7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BA720D61F6D4BD5003A14D4 /* PBXTargetDependency */,
+			);
+			name = ScooterUITests;
+			productName = ScooterUITests;
+			productReference = 1BA720D41F6D4BD5003A14D4 /* ScooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1BA720A91F6D4BD5003A14D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nour El Zafarany";
+				TargetAttributes = {
+					1BA720B01F6D4BD5003A14D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R978SC6GGV;
+						ProvisioningStyle = Automatic;
+					};
+					1BA720C81F6D4BD5003A14D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BA720B01F6D4BD5003A14D4;
+					};
+					1BA720D31F6D4BD5003A14D4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1BA720B01F6D4BD5003A14D4;
+					};
+				};
+			};
+			buildConfigurationList = 1BA720AC1F6D4BD5003A14D4 /* Build configuration list for PBXProject "Scooter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1BA720A81F6D4BD5003A14D4;
+			productRefGroup = 1BA720B21F6D4BD5003A14D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1BA720B01F6D4BD5003A14D4 /* Scooter */,
+				1BA720C81F6D4BD5003A14D4 /* ScooterTests */,
+				1BA720D31F6D4BD5003A14D4 /* ScooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BA720AF1F6D4BD5003A14D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0194C6F1F8D11C500C4537D /* Fare Estimate White Background.png in Resources */,
+				E0194C961F8D363A00C4537D /* Back History.png in Resources */,
+				1B06626E1F81A0A400C65957 /* signin-bg.png in Resources */,
+				E0194C741F8D129900C4537D /* cash.png in Resources */,
+				E0CDF5C71F8C41D0004A4FB9 /* pin.png in Resources */,
+				E0194C911F8D304800C4537D /* call background.png in Resources */,
+				E0CDF5B41F8C3AC3004A4FB9 /* BG-Ongoing REQ.png in Resources */,
+				1B0662681F8192BA00C65957 /* LOGO.png in Resources */,
+				E05FEE4B1F996A4100431E22 /* half-star.png in Resources */,
+				E0CDF5B71F8C3AC3004A4FB9 /* Hamburger Menu.png in Resources */,
+				E0CDF5BA1F8C3AC3004A4FB9 /* Request Ongoing.png in Resources */,
+				E0CDF5B91F8C3AC3004A4FB9 /* history_section.png in Resources */,
+				1B06626A1F819EDC00C65957 /* BG-orange.png in Resources */,
+				1B0662821F89742B00C65957 /* bg-01.png in Resources */,
+				E0CDF5B61F8C3AC3004A4FB9 /* Forma 1 copy 5.png in Resources */,
+				E0194C931F8D304800C4537D /* pp.png in Resources */,
+				E0CDF5B81F8C3AC3004A4FB9 /* history_background.png in Resources */,
+				E02D379B1F9103B0000CA66D /* On Trip1.png in Resources */,
+				1B06627E1F89707D00C65957 /* bottom copy 9.png in Resources */,
+				E0CDF5B51F8C3AC3004A4FB9 /* Ellipse 8 copy.png in Resources */,
+				E0194C791F8D159300C4537D /* between cash and fare estimate.png in Resources */,
+				E0194C771F8D129900C4537D /* fare estimate.png in Resources */,
+				E0194C9A1F8D396700C4537D /* coins.png in Resources */,
+				E0194C761F8D129900C4537D /* dollar in fare estimate.png in Resources */,
+				1BA720C31F6D4BD5003A14D4 /* LaunchScreen.storyboard in Resources */,
+				E02D379A1F9103B0000CA66D /* On Trip 2.png in Resources */,
+				1B06626C1F81A00E00C65957 /* BG image.png in Resources */,
+				1B0662761F84422600C65957 /* bottom copy 2.png in Resources */,
+				E0194C811F8D1FC000C4537D /* Full Scooter.png in Resources */,
+				1B0662781F84451E00C65957 /* Rectangle 4 copy 9.png in Resources */,
+				E0194C801F8D1FC000C4537D /* Confirm Booking Background.png in Resources */,
+				E0CDF5BF1F8C3F04004A4FB9 /* back icon.svg in Resources */,
+				E0194C8D1F8D2D9600C4537D /* white rectangle pickup arriving.png in Resources */,
+				E0CDF5BB1F8C3AC3004A4FB9 /* Request_Ride_Header.png in Resources */,
+				E05FEE491F996A4100431E22 /* empty-star.png in Resources */,
+				E0194C6D1F8D105100C4537D /* confirm booking.png in Resources */,
+				E0194C7D1F8D1E4D00C4537D /* booking confirmation.png in Resources */,
+				E05FEE4A1F996A4100431E22 /* full-star.png in Resources */,
+				1B0662801F8973D200C65957 /* bottom copy 9-2.png in Resources */,
+				E0194C971F8D363A00C4537D /* Front History.png in Resources */,
+				E0194C9B1F8D396700C4537D /* pin location.png in Resources */,
+				1BA720FD1F7E8656003A14D4 /* Main.storyboard in Resources */,
+				E02D37981F9103B0000CA66D /* Driver Home.png in Resources */,
+				E0194C831F8D226B00C4537D /* fare estimate page.png in Resources */,
+				E0CDF5B21F8C3AC3004A4FB9 /* Back_icon.png in Resources */,
+				E0194C7B1F8D199E00C4537D /* beige background.png in Resources */,
+				E0194C6C1F8D105100C4537D /* blue background.png in Resources */,
+				E02D37991F9103B0000CA66D /* Earnings.png in Resources */,
+				E0194C871F8D285000C4537D /* Pickup Arriving.png in Resources */,
+				E0CDF5C01F8C3F04004A4FB9 /* Menu icon.svg in Resources */,
+				1BA720EB1F7402AB003A14D4 /* GoogleService-Info.plist in Resources */,
+				E0194C8B1F8D2D9600C4537D /* blank star.png in Resources */,
+				E0194C751F8D129900C4537D /* dollar in cash.png in Resources */,
+				E0CDF5C61F8C41D0004A4FB9 /* menu.png in Resources */,
+				1BA720C01F6D4BD5003A14D4 /* Assets.xcassets in Resources */,
+				E0CDF5B31F8C3AC3004A4FB9 /* Background.png in Resources */,
+				E0CDF5C51F8C41D0004A4FB9 /* back.png in Resources */,
+				1B06627A1F84471E00C65957 /* back copy 2.png in Resources */,
+				E0194C921F8D304800C4537D /* call.png in Resources */,
+				E0194C8C1F8D2D9600C4537D /* Full star.png in Resources */,
+				E0CDF5C11F8C3F04004A4FB9 /* Pin.svg in Resources */,
+				1BA720ED1F7544FC003A14D4 /* splsh_screen.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720C71F6D4BD5003A14D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720D21F6D4BD5003A14D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1541F3357086A9F81A51BB47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScooterUITests/Pods-ScooterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3682A3893696BA3042439B57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scooter/Pods-Scooter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53B96A48DB2027572DF2E010 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScooterTests/Pods-ScooterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2F4BF432C07533B66A1736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScooterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		658E63AFACC5DAEB81973D8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScooterTests/Pods-ScooterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678EF15D816316E63120096D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scooter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E104CF7067866FB7A797DEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScooterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9025C2434B1E12195B4A9AE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScooterUITests/Pods-ScooterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC0BF6ACBBD184C58B2F634 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Scooter/Pods-Scooter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Scooter/Pods-Scooter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA720AD1F6D4BD5003A14D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B06627C1F86613D00C65957 /* SignUP.swift in Sources */,
+				1BA720FF1F7FB3DE003A14D4 /* AuthProvider.swift in Sources */,
+				E0AC6BF51FA7410C0041B1A3 /* DriverRating.swift in Sources */,
+				5EAB353C1FAC46E700C5F12F /* _RidarVC.swift in Sources */,
+				E05FEE431F9948AE00431E22 /* StarRating.swift in Sources */,
+				1BA720B71F6D4BD5003A14D4 /* RootViewController.swift in Sources */,
+				E0FECD941FA454C100CB1AC4 /* MenuController.swift in Sources */,
+				E059B84F1F8EC72A00B3568D /* RideData.swift in Sources */,
+				1BA720BB1F6D4BD5003A14D4 /* ModelController.swift in Sources */,
+				E0B76FCD1FA7678A004DBA93 /* DriverHistory.swift in Sources */,
+				1B0662661F818EB400C65957 /* ScooterHandler.swift in Sources */,
+				E09493271FA1323000177C0A /* PopUpViewController.swift in Sources */,
+				E0B76FD11FA79EB8004DBA93 /* DriverAccount.swift in Sources */,
+				1B0662621F818DA900C65957 /* DBProvider.swift in Sources */,
+				1B0662741F81B32800C65957 /* Rider VC.swift in Sources */,
+				E02D379F1F912B09000CA66D /* driverScooterHandler.swift in Sources */,
+				E0B872201FA7B851005ED4D2 /* RiderHistory.swift in Sources */,
+				E0051CC51F916A59001A9FFF /* global.swift in Sources */,
+				E02D37931F910042000CA66D /* DriverVC.swift in Sources */,
+				E00EA3E01F93D2F00080C5BA /* LocationSearchTable.swift in Sources */,
+				1BA720B91F6D4BD5003A14D4 /* DataViewController.swift in Sources */,
+				1BA720B51F6D4BD5003A14D4 /* AppDelegate.swift in Sources */,
+				1BA720F61F7E806D003A14D4 /* Signin.swift in Sources */,
+				1B0662641F818E2F00C65957 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720C51F6D4BD5003A14D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA720CE1F6D4BD5003A14D4 /* ScooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA720D01F6D4BD5003A14D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA720D91F6D4BD5003A14D4 /* ScooterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BA720CB1F6D4BD5003A14D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA720B01F6D4BD5003A14D4 /* Scooter */;
+			targetProxy = 1BA720CA1F6D4BD5003A14D4 /* PBXContainerItemProxy */;
+		};
+		1BA720D61F6D4BD5003A14D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BA720B01F6D4BD5003A14D4 /* Scooter */;
+			targetProxy = 1BA720D51F6D4BD5003A14D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1BA720C11F6D4BD5003A14D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA720C21F6D4BD5003A14D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1BA720FB1F7E8656003A14D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1BA720FC1F7E8656003A14D4 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1BA720DB1F6D4BD5003A14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1BA720DC1F6D4BD5003A14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1BA720DE1F6D4BD5003A14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B3C51E826768AB32C09F96 /* Pods-Scooter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R978SC6GGV;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = R978SC6GGV;
+				INFOPLIST_FILE = Scooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotter.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1BA720DF1F6D4BD5003A14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476B60D7002C722D6F6DFD9A /* Pods-Scooter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R978SC6GGV;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = R978SC6GGV;
+				INFOPLIST_FILE = Scooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scotter.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1BA720E11F6D4BD5003A14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE3EC7A24F44D48EFE064C6 /* Pods-ScooterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nour.ScooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scooter.app/Scooter";
+			};
+			name = Debug;
+		};
+		1BA720E21F6D4BD5003A14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1BE012C6EE3E9359D8D95E9 /* Pods-ScooterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ScooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nour.ScooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scooter.app/Scooter";
+			};
+			name = Release;
+		};
+		1BA720E41F6D4BD5003A14D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF1E09A60ACA7714327378F /* Pods-ScooterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ScooterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nour.ScooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Scooter;
+			};
+			name = Debug;
+		};
+		1BA720E51F6D4BD5003A14D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D778AC27C7A16728A18670BA /* Pods-ScooterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ScooterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nour.ScooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Scooter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BA720AC1F6D4BD5003A14D4 /* Build configuration list for PBXProject "Scooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA720DB1F6D4BD5003A14D4 /* Debug */,
+				1BA720DC1F6D4BD5003A14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA720DD1F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "Scooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA720DE1F6D4BD5003A14D4 /* Debug */,
+				1BA720DF1F6D4BD5003A14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA720E01F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "ScooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA720E11F6D4BD5003A14D4 /* Debug */,
+				1BA720E21F6D4BD5003A14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BA720E31F6D4BD5003A14D4 /* Build configuration list for PBXNativeTarget "ScooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BA720E41F6D4BD5003A14D4 /* Debug */,
+				1BA720E51F6D4BD5003A14D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1BA720A91F6D4BD5003A14D4 /* Project object */;
+}
